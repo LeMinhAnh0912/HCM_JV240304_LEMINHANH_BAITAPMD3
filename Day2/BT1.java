@@ -6,8 +6,7 @@ public class BT1 {
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Nhập số mà bạn muốn");
-          int number = scanner.nextInt();
-          
+            int number = scanner.nextInt();
             switch (number) {
     case 0:System.out.println("số không"); break;
     case 1:System.out.println("số một"); break;
