@@ -9,7 +9,7 @@ public class Main {
         String productId = "";
 
         while (true) {
-            System.out.println("Nhập mã sản phẩm");
+            System.out.println("Nhập mã sản phẩm: ");
             productId = sc.nextLine();
             boolean checkProductId = Pattern.matches("^[CSA][0-9]{3}$", productId);
             if (!checkProductId){
