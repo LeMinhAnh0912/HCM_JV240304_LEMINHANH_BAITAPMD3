@@ -1,10 +1,9 @@
 package BT3;
 
 import java.util.regex.Pattern;
-import java.util.regex.Matcher;
 import java.util.Scanner;
 
-public class Main {
+public class MainBT3 {
     public static void main(String[] args) {
         // Khai báo biểu thức chính quy để kiểm tra địa chỉ email
         String regex = "^[\\w-\\.]+@[\\w-]+\\.[a-z]{2,6}$";

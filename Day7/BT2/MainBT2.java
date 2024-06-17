@@ -1,6 +1,6 @@
 package BT2;
 
-public class Main {
+public class MainBT2 {
     public static void main(String[] args) {
         StringBuffer stringBuffer = new StringBuffer("Hello");
 

@@ -1,6 +1,6 @@
 package BT1;
 
-public class Main {
+public class MainBT1 {
     public static void main(String[] args) {
 
         String str = "Rikkei Academy";
