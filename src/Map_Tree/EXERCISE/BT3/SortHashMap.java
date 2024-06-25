@@ -23,11 +23,13 @@ public class SortHashMap {
                 return o1.getValue().compareTo(o2.getValue());
             }
         });
+        // Collections.sort(entryList, (o1, o2) -> o1.getValue() - o2.getValue())
 
         // B4: Duyệt qua danh sách đã sắp xếp và in các phần tử và giá trị của chúng theo thứ tự tăng dần
         System.out.println("HashMap sorted by values: ");
         for (Map.Entry<String, Integer> entry : entryList) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
+
     }
 }
