@@ -24,7 +24,7 @@ public class TreeMapExample {
 
         System.out.println("Phần tử nhỏ nhất trong tree map : " + tree.firstKey());
         System.out.println("Phần tử lơn thứ 2 trong tree map : " + tree.lowerKey(tree.lastKey()));
-        // lowerKey: bé hơn, floorKey: bé hơn hoặc bằng.
+        // lowerKey: bé hơn, floorKey: bé hơn hoặc bằng
 
         NavigableSet<Integer> integers = tree.descendingKeySet();
         while (!integers.isEmpty()) {
