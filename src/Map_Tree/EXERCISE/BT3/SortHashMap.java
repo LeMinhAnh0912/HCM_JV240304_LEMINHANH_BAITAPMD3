@@ -6,7 +6,7 @@ import java.util.*;
 public class SortHashMap {
     public static void main(String[] args) {
         // B1: Khai báo một HashMap và thêm các phần tử vào
-        HashMap<String, Integer> hashMap = new HashMap<>();
+        Map<String, Integer> hashMap = new HashMap<>();
         hashMap.put("One", 5);
         hashMap.put("Two", 2);
         hashMap.put("Three", 8);
@@ -24,6 +24,7 @@ public class SortHashMap {
             }
         });
         // Collections.sort(entryList, (o1, o2) -> o1.getValue() - o2.getValue())
+        // do cả 2 là int nên chỉ cần trừ cho nhau.
 
         // B4: Duyệt qua danh sách đã sắp xếp và in các phần tử và giá trị của chúng theo thứ tự tăng dần
         System.out.println("HashMap sorted by values: ");
